@@ -6,20 +6,20 @@
     "configurations": [
 
         {
-            "name": "example1_app",
+            "name": "instegram_app",
             "request": "launch",
             "type": "dart",
             "args": ["--device-user=0"]
         },
         {
-            "name": "example1_app (profile mode)",
+            "name": "instegram_app (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile",
             "args": ["--device-user=0"]
         },
         {
-            "name": "example1_app (release mode)",
+            "name": "instegram_app (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release",

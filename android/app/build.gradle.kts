@@ -19,8 +19,8 @@ android {
     }
 
     kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_17.toString()
-    }
+    jvmTarget = "17"
+}
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
@@ -31,6 +31,7 @@ android {
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
+        multiDexEnabled = true
     }
 
     buildTypes {
@@ -44,4 +45,8 @@ android {
 
 flutter {
     source = "../.."
+}
+dependencies {
+    implementation("com.facebook.android:facebook-android-sdk:latest.release") 
+    implementation("com.android.support:multidex:1.0.3")
 }

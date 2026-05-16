@@ -41,48 +41,47 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBn2uZruyWcCEnpOiEOORVIjZN_WnL_fYI',
-    appId: '1:888973432929:web:1775ba941c108d406f3220',
-    messagingSenderId: '888973432929',
-    projectId: 'messageme-589e0',
-    authDomain: 'messageme-589e0.firebaseapp.com',
-    storageBucket: 'messageme-589e0.firebasestorage.app',
+    apiKey: 'AIzaSyCEiZWIqiCvKRPU9oGUbiZalV8s58A0Trw',
+    appId: '1:506753532577:web:efadabbffa7cdf3acc66e0',
+    messagingSenderId: '506753532577',
+    projectId: 'inestagram-clone',
+    authDomain: 'inestagram-clone.firebaseapp.com',
+    storageBucket: 'inestagram-clone.firebasestorage.app',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCd-Gzet2DTLcxpgnQ_EfmDbKj2geF-voc',
-    appId: '1:888973432929:android:89b643d34561e4756f3220',
-    messagingSenderId: '888973432929',
-    projectId: 'messageme-589e0',
-    storageBucket: 'messageme-589e0.firebasestorage.app',
+    apiKey: 'AIzaSyAa-ODECuSJrlYVDY745JEPDvkLlcJ8ELM',
+    appId: '1:506753532577:android:cda9fe7d72f02747cc66e0',
+    messagingSenderId: '506753532577',
+    projectId: 'inestagram-clone',
+    storageBucket: 'inestagram-clone.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAMzjxiNlEGsn6AOWF8YLKIAPuOGivO6Ew',
-    appId: '1:888973432929:ios:618fd9a0aa6a3aad6f3220',
-    messagingSenderId: '888973432929',
-    projectId: 'messageme-589e0',
-    storageBucket: 'messageme-589e0.firebasestorage.app',
-    iosClientId: '888973432929-s5548tpmi3t9hnn2ulgf6h3vsjvarsvg.apps.googleusercontent.com',
+    apiKey: 'AIzaSyCyFASAdH5GV71z-iVOUSUymiCngbBpWyg',
+    appId: '1:506753532577:ios:5702384d73a64358cc66e0',
+    messagingSenderId: '506753532577',
+    projectId: 'inestagram-clone',
+    storageBucket: 'inestagram-clone.firebasestorage.app',
     iosBundleId: 'com.example.instegramApp',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAMzjxiNlEGsn6AOWF8YLKIAPuOGivO6Ew',
-    appId: '1:888973432929:ios:618fd9a0aa6a3aad6f3220',
-    messagingSenderId: '888973432929',
-    projectId: 'messageme-589e0',
-    storageBucket: 'messageme-589e0.firebasestorage.app',
-    iosClientId: '888973432929-s5548tpmi3t9hnn2ulgf6h3vsjvarsvg.apps.googleusercontent.com',
+    apiKey: 'AIzaSyCyFASAdH5GV71z-iVOUSUymiCngbBpWyg',
+    appId: '1:506753532577:ios:5702384d73a64358cc66e0',
+    messagingSenderId: '506753532577',
+    projectId: 'inestagram-clone',
+    storageBucket: 'inestagram-clone.firebasestorage.app',
     iosBundleId: 'com.example.instegramApp',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyBn2uZruyWcCEnpOiEOORVIjZN_WnL_fYI',
-    appId: '1:888973432929:web:ffdd5a9b95a265426f3220',
-    messagingSenderId: '888973432929',
-    projectId: 'messageme-589e0',
-    authDomain: 'messageme-589e0.firebaseapp.com',
-    storageBucket: 'messageme-589e0.firebasestorage.app',
+    apiKey: 'AIzaSyCEiZWIqiCvKRPU9oGUbiZalV8s58A0Trw',
+    appId: '1:506753532577:web:77a859b0fccd2ab2cc66e0',
+    messagingSenderId: '506753532577',
+    projectId: 'inestagram-clone',
+    authDomain: 'inestagram-clone.firebaseapp.com',
+    storageBucket: 'inestagram-clone.firebasestorage.app',
   );
+
 }
